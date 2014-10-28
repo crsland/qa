@@ -178,7 +178,6 @@ class Catalog extends BasePage
         if (!$product->find('css', $ribbonClass)) {
             throw new LogicException;
         }
-
         return true;
     }
 
